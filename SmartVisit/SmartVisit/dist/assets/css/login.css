@@ -1,0 +1,32 @@
+
+.bg-img-login {
+  background-image: url(../media/books/5.png);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 40%;
+}
+
+.PhoneInput {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #000;
+  background: none;
+}
+
+.PhoneInput:focus {
+  background: none;
+}
+
+.separator.separator-content::before,
+.separator.separator-content::after {
+  content: " ";
+  width: 60%;
+  border-bottom: 1px solid #c7c7c7;
+}

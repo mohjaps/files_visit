@@ -1,0 +1,10 @@
+{
+  "config": {
+    "path": {
+      "src": "../SmartVisit/src"
+    },
+    "dist": [
+      "../SmartVisit/dist/assets"
+    ]
+  }
+}
